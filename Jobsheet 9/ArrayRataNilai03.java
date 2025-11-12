@@ -25,7 +25,7 @@ public class ArrayRataNilai03 {
 
         double rataLulus = (jmlLulus > 0) ? (double) totalLulus / jmlLulus : 0;
         double rataTidakLulus = (jmlTidakLulus > 0) ? (double) totalTidakLulus / jmlTidakLulus : 0;
-
+        
         System.out.println("\nRata-rata nilai lulus = " + rataLulus);
         System.out.println("Rata-rata nilai tidak lulus = " + rataTidakLulus);
         sc.close();
